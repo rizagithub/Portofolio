@@ -1,15 +1,32 @@
 :root {
-  --first-color: rgba(241, 243, 255, 1);
+  --first-color: #ccd5ae;
   --second-color: rgba(13, 40, 166, 1);
-  --third-color: #e5e5e5;
-  --fourth-color: #5cb85f;
+  --third-color: #ccd5ae;
+  --fourth-color: #ccd5ae;
 }
+
+.about{
+  background-color: #ccd5ae;
+}
+
+.span{
+  color: #e71531;
+}
+
+.img_aku{
+  width: 30%;
+  border-radius: 50%;
+}
+
 
 * {
   padding: 0;
   margin: 0;
 }
 
+.footer{
+  padding-bottom: 50px;
+}
 nav {
   background-color: var(--first-color);
 }
